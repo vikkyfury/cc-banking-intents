@@ -1,0 +1,17 @@
+# OS/editor
+.DS_Store
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+
+# Data (processed/derived)
+data/processed/

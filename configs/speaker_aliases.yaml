@@ -1,0 +1,21 @@
+customer:
+  - customer
+  - user
+  - caller
+  - client
+  - member
+  - patient
+  - subscriber
+  - consumer
+  - guest
+agent:
+  - agent
+  - rep
+  - representative
+  - csr
+  - advisor
+  - associate
+  - operator
+  - support
+  - specialist
+  - staff

@@ -1,0 +1,756 @@
+generated_from: intent_clusters_tfidf.csv
+notes: Edit `configs/intent_mapping_overrides.yaml` to rename intents or mark answerable=False for handoff.
+clusters:
+- cluster_id: 5
+  intent_id: got_let__c5
+  suggested_intent: got_let
+  size: 26021
+  top_terms:
+  - got
+  - let
+  - like
+  - time
+  - going
+  - mean
+  - need
+  - want
+  - did
+  - duration
+  - sure
+  - card
+  examples:
+  - How are you?
+  - Nothing at all?
+  - My apologies to you.
+  - All right, my friend.
+  - How long has it been?
+  - I like what I see here.
+  - So I apologize for that.
+  - So [TIME] at [PERSON_AGE]?
+  - I can get all that done now.
+  - What's her first and last name?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 2
+  intent_id: just_let_just__c2
+  suggested_intent: just_let just
+  size: 2466
+  top_terms:
+  - just
+  - let just
+  - let
+  - just second
+  - confirm
+  - second
+  - just want
+  - want
+  - just need
+  - just moment
+  - moment
+  - just confirm
+  examples:
+  - I just kind of give you the range.
+  - And I just always like to be upfront with that.
+  - Let me just type that in.
+  - I'm just wondering.
+  - I was just curious about.
+  - Let me just.
+  - I'm just looking for a quote right now.
+  - Just give me one second.
+  - Let me just make sure.
+  - I just want to introduce myself.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 15
+  intent_id: ll_ll_just__c15
+  suggested_intent: ll_ll just
+  size: 1237
+  top_terms:
+  - ll
+  - ll just
+  - ll send
+  - send
+  - just
+  - ll ahead
+  - ahead
+  - ll tell
+  - ll make
+  - ll look
+  - ll try
+  - make
+  examples:
+  - I'll call you back.
+  - I'll spell it.
+  - I'll put my headset in.
+  - I'll have to.
+  - I'll verify that.
+  - I'll get up.
+  - And I'll tell you this?
+  - I'll do the [DATE] for you.
+  - I'll do that.
+  - I'll tell you, your.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 8
+  intent_id: don_don_know__c8
+  suggested_intent: don_don know
+  size: 1020
+  top_terms:
+  - don
+  - don know
+  - know
+  - don want
+  - want
+  - don need
+  - need
+  - mean don
+  - just don
+  - like
+  - don care
+  - mean
+  examples:
+  - No, I don't know.
+  - I don't know.
+  - I don't know when.
+  - I don't know what it is.
+  - No, I don't smoke.
+  - I don't have.
+  - I don't have it.
+  - No, I don't have no one.
+  - I don't want no cremation.
+  - I don't have policy for [PERSON_NAME].
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 0
+  intent_id: know_let_know__c0
+  suggested_intent: know_let know
+  size: 1019
+  top_terms:
+  - know
+  - let know
+  - let
+  - know brand
+  - brand
+  - old
+  - know old
+  - just
+  - ll let
+  - just let
+  - didn know
+  - know check
+  examples:
+  - So, you know, I.
+  - You know, I can.
+  - I just know I ain't.
+  - I just know that I'm not.
+  - I know it was.
+  - Do you know him?
+  - Yeah, I know.
+  - Yes, I know.
+  - I know isn't that big.
+  - I know it.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 3
+  intent_id: profile_or_contact_update__c3
+  suggested_intent: profile_or_contact_update
+  size: 793
+  top_terms:
+  - address
+  - email
+  - email address
+  - service
+  - street address
+  - street
+  - service address
+  - good email
+  - address send
+  - address service
+  - need
+  - good
+  examples:
+  - And what is your home address?
+  - I can email you.
+  - You see my email there?
+  - Do you have an email address?
+  - What's your home address?
+  - What's your email?
+  - And then what is your address?
+  - I saw the address.
+  - And what's your email address?
+  - What is your email?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 13
+  intent_id: number_phone__c13
+  suggested_intent: number_phone
+  size: 745
+  top_terms:
+  - number
+  - phone
+  - phone number
+  - good phone
+  - good
+  - cell phone
+  - cell
+  - best phone
+  - best
+  - phone_number
+  - reach
+  - number reach
+  examples:
+  - So my phone number is.
+  - My phone number is [PHONE_NUMBER].
+  - My Cell phone number.
+  - Do you have my number?
+  - That's my number.
+  - Are there any number?
+  - What's the number?
+  - I have a phone number.
+  - What's the best phone number for me?
+  - Yes, my number.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 20
+  intent_id: person_name_person_name_person_name__c20
+  suggested_intent: person_name_person_name person_name
+  size: 742
+  top_terms:
+  - person_name
+  - person_name person_name
+  - hi person_name
+  - hi
+  - hey person_name
+  - hey
+  - say person_name
+  - let person_name
+  - got person_name
+  - said
+  - hear
+  - let
+  examples:
+  - Yeah, [PERSON_NAME], I have Ms.
+  - My name's [PERSON_NAME].
+  - Hi, is this [PERSON_NAME]?
+  - '[PERSON_NAME], can you hear me?'
+  - Again, my name is [PERSON_NAME].
+  - My name is [PERSON_NAME].
+  - Hi, [PERSON_NAME], how are you?
+  - '[PERSON_NAME], my name is [PERSON_NAME].'
+  - '[PERSON_NAME], can I be honest with you?'
+  - Is it [PERSON_NAME]?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 10
+  intent_id: think_don_think__c10
+  suggested_intent: think_don think
+  size: 706
+  top_terms:
+  - think
+  - don think
+  - don
+  - let think
+  - think just
+  - think got
+  - got
+  - think like
+  - let
+  - just
+  - fine
+  - think person_name
+  examples:
+  - I think so.
+  - I think the 10,001 is the best.
+  - I don't think so.
+  - No, I think I do.
+  - So I think.
+  - I think he's gone.
+  - I think it's my.
+  - What do you think?
+  - I think I will.
+  - I think I'm [PERSON_AGE].
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 12
+  intent_id: sorry_hear__c12
+  suggested_intent: sorry_hear
+  size: 629
+  top_terms:
+  - sorry
+  - hear
+  - sorry hear
+  - inconvenience
+  - say
+  - sorry didn
+  - sorry inconvenience
+  - sorry say
+  - didn
+  - sorry did
+  - sorry repeat
+  - repeat
+  examples:
+  - I'm sorry, go ahead.
+  - I'm sorry about that.
+  - I'm sorry, what?
+  - I'm Sorry about that, Mr.
+  - Sorry, I just choked.
+  - I'm so sorry.
+  - I'm sorry, [PERSON_NAME].
+  - Okay, I'm sorry.
+  - I'm sorry, I can't.
+  - I'm sorry, not 250.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 19
+  intent_id: code_zip__c19
+  suggested_intent: code_zip
+  size: 578
+  top_terms:
+  - code
+  - zip
+  - zip code
+  - location
+  - code location
+  - code property
+  - property
+  - service
+  - code need
+  - need service
+  - code card
+  - billing zip
+  examples:
+  - Is that the zip code?
+  - The zip code there at [LOCATION]?
+  - What was your zip code?
+  - And your zip code?
+  - And what's your zip?
+  - Okay, and zip code?
+  - That's your zip code, right?
+  - And zip code?
+  - Your zip code, sir?
+  - Okay, and what's your zip code?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 7
+  intent_id: location_location_location__c7
+  suggested_intent: location_location location
+  size: 573
+  top_terms:
+  - location
+  - location location
+  - location correct
+  - said location
+  - live location
+  - said
+  - live
+  - zip
+  - correct
+  - code
+  - area
+  - code location
+  examples:
+  - I'm in [LOCATION].
+  - And you're within the state of [LOCATION]?
+  - You're in [LOCATION], right?
+  - I'm not licensed in [LOCATION].
+  - Is it [LOCATION] [LOCATION]?
+  - I'm a [LOCATION] Citizen.
+  - And [LOCATION], right?
+  - You're in [LOCATION]?
+  - Is it [LOCATION], [LOCATION]?
+  - Are you in [LOCATION]?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 6
+  intent_id: today_help_today__c6
+  suggested_intent: today_help today
+  size: 524
+  top_terms:
+  - today
+  - help today
+  - help
+  - come today
+  - somebody
+  - come
+  - assist today
+  - going
+  - time
+  - going today
+  - somebody today
+  - assist
+  examples:
+  - Do you have your social available today?
+  - What is today?
+  - How are you today?
+  - You have that today?
+  - I'm still alive today.
+  - How's the weather there today?
+  - Can we do it today?
+  - I am today.
+  - Who do I speaking with today?
+  - How are you today, sir?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 22
+  intent_id: said_like_said__c22
+  suggested_intent: said_like said
+  size: 501
+  top_terms:
+  - said
+  - like said
+  - like
+  - said person_name
+  - person_name
+  - sorry said
+  - sorry
+  - said money_amount
+  - time
+  - just said
+  - person_name said
+  - just
+  examples:
+  - You said her name is [PERSON_NAME]?
+  - I said the wrong thing.
+  - So basically, as I said.
+  - As I said.
+  - I know you said you driving.
+  - I know you said.
+  - I said I pay cash.
+  - You said [PERSON_NAME]?
+  - I said okay, but just at night.
+  - As I said, it's designed to.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 16
+  intent_id: help_let_help__c16
+  suggested_intent: help_let help
+  size: 471
+  top_terms:
+  - help
+  - let help
+  - person_name help
+  - let
+  - person_name
+  - help process
+  - process
+  - appreciate help
+  - sure help
+  - help person_name
+  - sure
+  - appreciate
+  examples:
+  - I need help to walk.
+  - So I can help you.
+  - I can help you with this.
+  - I appreciate your help.
+  - How may I help you?
+  - I'm sorry, I can't help you.
+  - I can definitely help you.
+  - We can help you out, okay?
+  - I can't help you.
+  - Do you have someone to help you?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 4
+  intent_id: organization_organization_organization__c4
+  suggested_intent: organization_organization organization
+  size: 447
+  top_terms:
+  - organization
+  - organization organization
+  - calling organization
+  - person_name
+  - calling
+  - work organization
+  - organization person_name
+  - person_name organization
+  - work
+  - company
+  - organization location
+  - help
+  examples:
+  - You call it [ORGANIZATION]?
+  - Yes, I got [ORGANIZATION] [ORGANIZATION] with you.
+  - I'm a [ORGANIZATION] [ORGANIZATION].
+  - I have [ORGANIZATION] here.
+  - Yeah, I'm with [ORGANIZATION] [ORGANIZATION].
+  - I call it [ORGANIZATION].
+  - And you said you were with [ORGANIZATION] [ORGANIZATION], correct?
+  - And I guess that's [ORGANIZATION].
+  - What [ORGANIZATION] [ORGANIZATION] uses?
+  - I'm calling from the [ORGANIZATION] [ORGANIZATION] [ORGANIZATION] [ORGANIZATION] [ORGANIZATION] [ORGANIZATION].
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 21
+  intent_id: calling_number_calling__c21
+  suggested_intent: calling_number calling
+  size: 434
+  top_terms:
+  - calling
+  - number calling
+  - number
+  - calling today
+  - today
+  - phone_number
+  - calling phone_number
+  - phone
+  - phone number
+  - time calling
+  - showed
+  - showed number
+  examples:
+  - And what state are you calling from?
+  - What state are you calling from?
+  - Again, I'm calling.
+  - Someone is calling me.
+  - Thank you for calling me, but.
+  - Are you calling for service?
+  - I'm calling to see if I can get an estimate of a price.
+  - I'm calling from my dad.
+  - I also show the number you're calling on today's Is this the best one to reach you back?
+  - And I show the number you are calling in [PHONE_NUMBER].
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 9
+  intent_id: let_let_let__c9
+  suggested_intent: let_let let
+  size: 421
+  top_terms:
+  - let
+  - let let
+  - mean
+  - phone_number
+  - office
+  - like
+  - tell
+  - price
+  - fix
+  - probably
+  - new
+  - friday
+  examples:
+  - Well, let me give you my name again.
+  - So let me do that now.
+  - Okay, let me.
+  - Let me go.
+  - Let me see.
+  - All right, let me.
+  - Okay, so let me.
+  - So yeah, let me.
+  - So let me do that here.
+  - So let me give you an example.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 11
+  intent_id: oh_oh_sorry__c11
+  suggested_intent: oh_oh sorry
+  size: 395
+  top_terms:
+  - oh
+  - oh sorry
+  - oh don
+  - sorry
+  - oh got
+  - oh gosh
+  - gosh
+  - oh just
+  - oh know
+  - don
+  - got
+  - oh did
+  examples:
+  - Oh, my God.
+  - Oh, I'm sorry.
+  - Oh my gosh.
+  - Oh, my gosh.
+  - Oh, my goodness.
+  - Oh, I see.
+  - Oh, no, I was just gonna ask.
+  - Oh, I can afford it.
+  - Oh, you did?
+  - Oh, I know.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 18
+  intent_id: occupation_occupation_occupation__c18
+  suggested_intent: occupation_occupation occupation
+  size: 360
+  top_terms:
+  - occupation
+  - occupation occupation
+  - ll occupation
+  - send
+  - send occupation
+  - going
+  - let
+  - ll
+  - occupation location
+  - occupation person_name
+  - actually
+  - come
+  examples:
+  - So I'm an [OCCUPATION] [OCCUPATION].
+  - I'm a [OCCUPATION] [OCCUPATION].
+  - I'm your [OCCUPATION] [OCCUPATION].
+  - So I'm what you call a [OCCUPATION].
+  - I'm a [OCCUPATION].
+  - I'll be your [OCCUPATION] [OCCUPATION].
+  - I am a [OCCUPATION] [OCCUPATION] with [ORGANIZATION] [ORGANIZATION].
+  - I'll be your [OCCUPATION].
+  - Yeah, I'm [OCCUPATION] already.
+  - I'm not a [OCCUPATION].
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 14
+  intent_id: good_good_email__c14
+  suggested_intent: good_good email
+  size: 278
+  top_terms:
+  - good
+  - good email
+  - email
+  - good number
+  - number
+  - think good
+  - contact
+  - sound good
+  - good time
+  - good contact
+  - sound
+  - think
+  examples:
+  - Does that sound good?
+  - I'm good, [PERSON_NAME].
+  - I just feel good.
+  - That sound good?
+  - I'm pretty good.
+  - Is that good?
+  - Good, but can you speak up?
+  - Good, I'm glad.
+  - Good, how are you?
+  - You good with that?
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 24
+  intent_id: ready_ready_card__c24
+  suggested_intent: ready_ready card
+  size: 196
+  top_terms:
+  - ready
+  - ready card
+  - card
+  - card number
+  - number
+  - ready number
+  - know ready
+  - let
+  - let know
+  - know
+  - just
+  - ll
+  examples:
+  - Yes, sir, I'm ready.
+  - Let me know when you're ready.
+  - All right, ready?
+  - Okay, I'm ready.
+  - So are you ready?
+  - Are you ready for the transfer?
+  - So you ready?
+  - Are you ready?
+  - You ready for the application?
+  - Yeah, I'm ready for it.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 17
+  intent_id: doing_doing_good__c17
+  suggested_intent: doing_doing good
+  size: 192
+  top_terms:
+  - doing
+  - doing good
+  - doing today
+  - good
+  - hey
+  - doing great
+  - today
+  - doing fine
+  - fine
+  - great
+  - hey doing
+  - person_name doing
+  examples:
+  - I'm doing good.
+  - And how are you doing today?
+  - How are you doing today?
+  - How are you doing?
+  - How you doing?
+  - I was doing fine.
+  - You been doing okay?
+  - I'm doing well.
+  - How you doing today?
+  - I'm doing fantastic.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 23
+  intent_id: monday_time__c23
+  suggested_intent: monday_time
+  size: 165
+  top_terms:
+  - monday
+  - time
+  - time monday
+  - monday tuesday
+  - ll monday
+  - monday time
+  - monday morning
+  - tuesday
+  - ll
+  - morning
+  - friday
+  - appointment monday
+  examples:
+  - I'll do that for you Monday.
+  - Yep, Monday, Tuesday, Wednesday or Thursday or Friday?
+  - It is Monday, right?
+  - Okay, that'll leave your balance Monday of [TIME] [TIME].
+  - I mean, if you dropped it off as soon as, you know, Monday, Tuesday.
+  - I could do Monday or Tuesday.
+  - You said next Monday?
+  - I will go ahead and have them give you a call on Monday when they're in the office.
+  - If you have the measurements, I can go ahead and get it over to the specialist and have them give you a call on Monday
+    with some pricing.
+  - I'll see you on Monday.
+  answerable: true
+  handoff_reason: ''
+- cluster_id: 1
+  intent_id: look_like_look__c1
+  suggested_intent: look like_look
+  size: 23
+  top_terms:
+  - look like
+  - look
+  - like
+  - doesn look
+  - doesn
+  - unfortunately doesn
+  - checking unfortunately
+  - unfortunately
+  - like service
+  - area
+  - service area
+  - checking
+  examples:
+  - What's the schedule look like?
+  - But look I have like.
+  - What did he look like?
+  - All right, I'm checking here [ORGANIZATION] [ORGANIZATION] system and unfortunately it doesn't look like we service that
+    area.
+  - I'm checking here in the system and unfortunately it doesn't look like we service that area.
+  - Okay, I'm checking here in the system and unfortunately it doesn't look like we service that area anymore.
+  - I was checking here in the system and unfortunately it doesn't look like we have a provider in your area that can help
+    with that specific need.
+  - What is the availability look like?
+  - It look like more than one?
+  - It doesn't look like I'm able to get the glass anywhere.
+  answerable: true
+  handoff_reason: ''

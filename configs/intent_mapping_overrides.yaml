@@ -1,0 +1,125 @@
+clusters:
+  # --- Keep / rename to real intents (answerable = true IF your bot can handle these) ---
+  - cluster_id: 3
+    suggested_intent: profile_or_contact_update
+    intent_id: profile_or_contact_update
+    answerable: true
+    handoff_reason: ""     # add auth policy if needed (e.g., "Requires OTP verification before updating PII")
+
+  - cluster_id: 19
+    suggested_intent: billing_zip_verification
+    intent_id: billing_zip_verification
+    answerable: true
+    handoff_reason: ""     # or mark false if you don't want the bot to confirm billing ZIP
+
+  - cluster_id: 7
+    suggested_intent: branch_or_service_coverage_by_location
+    intent_id: branch_or_service_coverage_by_location
+    answerable: true
+
+  - cluster_id: 13
+    suggested_intent: update_or_verify_phone_number
+    intent_id: update_or_verify_phone_number
+    answerable: false
+    handoff_reason: "Requires identity verification; route to human or authenticated self-serve flow."
+
+  - cluster_id: 21
+    suggested_intent: caller_id_verification
+    intent_id: caller_id_verification
+    answerable: false
+    handoff_reason: "Identity verification required before proceeding."
+
+  # --- Introductions / greetings / filler (treat as NOISE, not intents) ---
+  - cluster_id: 5
+    suggested_intent: __noise_small_talk
+    intent_id: noise_small_talk
+    answerable: false
+    handoff_reason: "Generic small talk; not a user intent."
+
+  - cluster_id: 2
+    suggested_intent: __noise_small_talk
+    intent_id: noise_small_talk
+    answerable: false
+    handoff_reason: "Filler phrases ('just', 'let me…')."
+
+  - cluster_id: 15
+    suggested_intent: __noise_agent_statements
+    intent_id: noise_agent_statements
+    answerable: false
+    handoff_reason: "Agent-centric ('I’ll…'); not customer intent."
+
+  - cluster_id: 8
+    suggested_intent: __noise_uncertainty
+    intent_id: noise_uncertainty
+    answerable: false
+    handoff_reason: "Generic 'I don't know' lines; not a task."
+
+  - cluster_id: 0
+    suggested_intent: __noise_small_talk
+    intent_id: noise_small_talk
+    answerable: false
+
+  - cluster_id: 10
+    suggested_intent: __noise_uncertainty
+    intent_id: noise_uncertainty
+    answerable: false
+
+  - cluster_id: 12
+    suggested_intent: __noise_apology
+    intent_id: noise_apology
+    answerable: false
+
+  - cluster_id: 11
+    suggested_intent: __noise_reactions
+    intent_id: noise_reactions
+    answerable: false
+
+  - cluster_id: 14
+    suggested_intent: __noise_small_talk
+    intent_id: noise_small_talk
+    answerable: false
+
+  - cluster_id: 17
+    suggested_intent: __noise_greetings
+    intent_id: noise_greetings
+    answerable: false
+
+  - cluster_id: 23
+    suggested_intent: __noise_scheduling_smalltalk
+    intent_id: noise_scheduling_smalltalk
+    answerable: false
+
+  - cluster_id: 1
+    suggested_intent: __noise_chitchat
+    intent_id: noise_chitchat
+    answerable: false
+
+  - cluster_id: 20
+    suggested_intent: __noise_names_intros
+    intent_id: noise_names_intros
+    answerable: false
+
+  - cluster_id: 9
+    suggested_intent: __noise_fillers
+    intent_id: noise_fillers
+    answerable: false
+
+  - cluster_id: 18
+    suggested_intent: __noise_agent_identity
+    intent_id: noise_agent_identity
+    answerable: false
+
+  - cluster_id: 22
+    suggested_intent: __noise_backreferences
+    intent_id: noise_backreferences
+    answerable: false
+
+  - cluster_id: 6
+    suggested_intent: __noise_greetings
+    intent_id: noise_greetings
+    answerable: false
+
+  - cluster_id: 24
+    suggested_intent: __noise_ready_prompts
+    intent_id: noise_ready_prompts
+    answerable: false

@@ -1,0 +1,22 @@
+include:
+  - bank
+  - banking
+  - credit card
+  - debit card
+  - account
+  - balance
+  - statement
+  - transfer
+  - wire
+  - loan
+  - mortgage
+  - direct deposit
+  - overdraft
+  - dispute
+  - fraud
+  - chargeback
+  - ATM
+  - PIN
+  - password reset
+  - Zelle
+  - ACH
